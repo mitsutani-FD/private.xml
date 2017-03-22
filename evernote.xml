@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Change Evernote Key-bindings</name>
+    <identifier>private.evernote</identifier>
+    <only>Evernote</only>
+    <!-- insert date by Cmd + D -->
+    <autogen>
+      __KeyToKey__
+      KeyCode::D, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+      KeyCode::D, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+    </autogen>
+    <!-- insert time by Cmd + T -->
+    <autogen>
+      __KeyToKey__
+      KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+      KeyCode::D, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L
+    </autogen>
+  </item>
+</root>

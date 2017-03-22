@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Vim-like Slack key-bindings</name>
+    <identifier>private.slack.vim_like</identifier>
+    <only>Slack</only>
+    <autogen>
+      __KeyToKey__
+      KeyCode::N, ModifierFlag::COMMAND_L,
+      KeyCode::CURSOR_DOWN, ModifierFlag::OPTION_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::P, ModifierFlag::COMMAND_L,
+      KeyCode::CURSOR_UP, ModifierFlag::OPTION_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::J, ModifierFlag::COMMAND_L,
+      KeyCode::PAGEDOWN
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::K, ModifierFlag::COMMAND_L,
+      KeyCode::PAGEUP
+    </autogen>
+  </item>
+</root>

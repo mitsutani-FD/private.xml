@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+  Assumpition:
+    + Shit + Space to KANA/EISUU (toggle)
+    Seil:
+      Change the caps lock key to 55 (Left Command)
+      Enable VFER Key on PC keyboard
+      Enable XFER Key on PC keyboard
+      Enable KATAKANA Key on PC keyborad
+-->
+<root>
+
+  <appdef>
+    <appname>Chrome</appname>
+    <equal>com.google.Chrome</equal>
+  </appdef>
+
+  <appdef>
+    <appname>iTerm2</appname>
+    <equal>com.googlecode.iterm2</equal>
+  </appdef>
+  
+  <appdef>
+    <appname>Evernote</appname>
+    <equal>com.evernote.Evernote</equal>
+  </appdef>
+
+  <appdef>
+    <appname>Slack</appname>
+    <equal>com.tinyspeck.slackmacgap</equal>
+  </appdef>
+
+  <devicevendordef>
+    <vendorname>ThinkPadUSB</vendorname>
+    <vendorid>0x17ef</vendorid>
+  </devicevendordef>
+
+  <include path="104on109.xml" />
+  <include path="crazy_thumb.xml" />
+  <include path="evernote.xml" />
+  <include path="vimlike_slack.xml" />
+  <!-- <include path="symbols_to_home_US.xml" /> -->
+  <include path="returnhome.xml" />
+  <include path="iterm2.xml" />
+  <include path="system.xml" />
+</root>
+

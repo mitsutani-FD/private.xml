@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- Assumption Henkan(XFER) maped to F19 by Seil -->
+<root>
+  <modifierdef>MOD_XFER</modifierdef>
+  <item>
+    <name>Henkan</name>
+    <identifier>private.henkan</identifier>
+    <autogen>
+      __KeyOverlaidModifier__
+      KeyCode::F19,
+      KeyCode::VK_MODIFIER_MOD_XFER,
+      KeyCode::VK_NONE
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::K, ModifierFlag::MOD_XFER | ModifierFlag::NONE,
+      KeyCode::MINUS, ModifierFlag::SHIFT_L
+    </autogen>  
+    <autogen>
+      __KeyToKey__
+      KeyCode::K, ModifierFlag::MOD_XFER | ModifierFlag::SHIFT_L,
+      KeyCode::SEMICOLON, ModifierFlag::SHIFT_L
+    </autogen>  
+    <autogen>
+      __KeyToKey__ KeyCode::J,
+      ModifierFlag::MOD_XFER | ModifierFlag::NONE,
+      KeyCode::MINUS
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::J, ModifierFlag::MOD_XFER | ModifierFlag::COMMAND_L,
+      KeyCode::MINUS, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::J, ModifierFlag::MOD_XFER | ModifierFlag::CONTROL_L,
+      KeyCode::MINUS, ModifierFlag::CONTROL_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::J, ModifierFlag::MOD_XFER | ModifierFlag::SHIFT_L,
+      KeyCode::JIS_UNDERSCORE
+    </autogen>
+    <autogen>__KeyToKey__ KeyCode::H, ModifierFlag::MOD_XFER, KeyCode::DELETE</autogen>
+    <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::MOD_XFER, KeyCode::ESCAPE</autogen>
+  </item>
+</root> 

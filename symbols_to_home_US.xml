@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Draw Symbols to Home (US-case)</name>
+    <identifier>private.symbols_to_home_US</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::I, ModifierFlag::COMMAND_L,
+      KeyCode::BRACKET_LEFT
+    </autogen>  
+    <autogen>
+      __KeyToKey__
+      KeyCode::O, ModifierFlag::COMMAND_L,
+      KeyCode::BRACKET_RIGHT
+    </autogen>  
+    <autogen>
+      __KeyToKey__
+      KeyCode::P, ModifierFlag::COMMAND_L,
+      KeyCode::BACKSLASH
+    </autogen>  
+    <autogen>
+      __KeyToKey__
+      KeyCode::K, ModifierFlag::CONTROL_L,
+      KeyCode::EQUAL
+    </autogen>  
+    <autogen>
+      __KeyToKey__
+      KeyCode::J, ModifierFlag::CONTROL_L,
+      KeyCode::MINUS
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::S, ModifierFlag::COMMAND_L,
+      KeyCode::BACKQUOTE
+    </autogen>  
+    <autogen>
+      __KeyToKey__
+      KeyCode::W, ModifierFlag::COMMAND_L,
+      KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L
+    </autogen>  
+  </item>
+</root>

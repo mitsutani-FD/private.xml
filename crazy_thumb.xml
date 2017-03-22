@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Muhenkan(NFER)/Henkan(XFER) to Modifier</name>
+    <include path="crazy_nfer.xml" />
+    <include path="crazy_xfer.xml" />
+  </item>
+</root>

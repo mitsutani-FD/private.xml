@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Assumption Mehank NFER to F18 by Seil -->
+<root>
+  <modifierdef>MOD_NFER</modifierdef>
+  <item>
+    <name>Muhenkan</name>
+    <identifier>private.muhenkan</identifier>
+    <autogen>
+      __KeyOverlaidModifier__
+      KeyCode::F18,
+      KeyCode::VK_MODIFIER_MOD_NFER,
+      KeyCode::VK_NONE
+    </autogen>
+    <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::MOD_NFER, KeyCode::RETURN</autogen>
+    <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::MOD_NFER, KeyCode::JIS_BRACKET_LEFT</autogen>  
+    <autogen>__KeyToKey__ KeyCode::O, ModifierFlag::MOD_NFER, KeyCode::JIS_BRACKET_RIGHT</autogen>  
+    <!-- <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::MOD_NFER, KeyCode::JIS_YEN</autogen> -->  
+    <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::MOD_NFER, KeyCode::VK_JIS_BACKSLASH</autogen>  
+    <autogen>__KeyToKey__ KeyCode::H, ModifierFlag::MOD_NFER, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::MOD_NFER, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::MOD_NFER, KeyCode::CURSOR_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::MOD_NFER, KeyCode::CURSOR_RIGHT</autogen>
+  </item>
+</root>

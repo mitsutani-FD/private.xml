@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>iTerm2 customize</name>
+    <identifier>private.iterm2</identifier>
+    <only>iTerm2</only>
+    <autogen>
+      __KeyToKey__
+      KeyCode::SPACE, ModifierFlag::COMMAND_L,
+      KeyCode::RETURN, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+</root>
