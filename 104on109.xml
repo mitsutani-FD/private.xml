@@ -18,8 +18,12 @@
     <autogen>__KeyToKey__ KeyCode::0, ModifierFlag::SHIFT_R, KeyCode::9, ModifierFlag::SHIFT_R</autogen>
     <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::SHIFT_L, KeyCode::JIS_UNDERSCORE</autogen>
     <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::SHIFT_R, KeyCode::JIS_UNDERSCORE</autogen>
-    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, KeyCode::JIS_COLON</autogen>
-    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_R, KeyCode::JIS_COLON</autogen>
+    <!-- hard noremap : ; -->
+    <!--<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, KeyCode::JIS_COLON</autogen>-->
+    <!--<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_R, KeyCode::JIS_COLON</autogen>-->
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::NONE, KeyCode::JIS_COLON</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, KeyCode::SEMICOLON</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_R, KeyCode::SEMICOLON</autogen>
     <autogen>__KeyToKey__ KeyCode::JIS_COLON, ModifierFlag::NONE, KeyCode::7, ModifierFlag::SHIFT_R</autogen>
     <autogen>__KeyToKey__ KeyCode::JIS_COLON, ModifierFlag::SHIFT_L, KeyCode::2, ModifierFlag::SHIFT_L</autogen>
     <autogen>__KeyToKey__ KeyCode::JIS_COLON, ModifierFlag::SHIFT_R, KeyCode::2, ModifierFlag::SHIFT_R</autogen>
